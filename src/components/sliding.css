@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .slide{
     display: flex;
     align-items: center;
@@ -9,4 +10,17 @@
     align-items: center;
     width: 80vw;
     height: 70vh;
+=======
+.slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin-top: 0.5%;
+}
+.slide-image{
+    align-items: center;
+    width: 80vw;
+    height: 70vh;
+>>>>>>> 0aafcf2 (configmap chnages)
 }

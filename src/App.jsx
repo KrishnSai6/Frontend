@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
@@ -89,3 +90,20 @@ function App() {
 }
 
 export default App;
+=======
+import { Routes, Route } from "react-router-dom";
+import Openpage from "./components/Openpage";
+import Userlogin from "./components/Userlogin";
+import SignUpsuccess from "./components/SignUpsuccess";
+
+function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<Openpage />} />
+      <Route path="/user" element={<Userlogin />} />
+      <Route path ="/signupsuccess" element={<SignUpsuccess/>} />
+    </Routes>
+  );
+}
+export default App;
+>>>>>>> 0aafcf2 (configmap chnages)
