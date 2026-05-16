@@ -1,0 +1,70 @@
+.page{
+  width: 100%;
+  height: 100%;
+}
+.main-nav-bar{
+  display: flex;
+  align-items: center;
+  background-color: rgb(53, 74, 230);
+/*   justify-content: space-between; */
+  padding: 0 5rem;
+  font-size: 0.5rem;
+
+}
+.nav-bar{
+  display: flex;
+  gap: 1rem;
+  margin-left: auto;
+  align-items: center;
+
+
+}
+.company-name{
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+
+ 
+}
+.individual-nav{
+  color: white;   
+  cursor: pointer;
+}
+.user-area{
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.user-details{
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: bisque;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.user-popup{
+  position: absolute;
+  top: 3rem;
+  right: 0rem;
+  width: 4rem;
+  background-color: aliceblue;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  border-radius: 6px;
+  padding: 1rem; 
+  color: green;
+  
+}
+.user-popup p {
+  margin: 0;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.user-popup p:hover {
+  background: #eee;
+}
