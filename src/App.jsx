@@ -1,8 +1,8 @@
 
 import { Routes, Route } from "react-router-dom";
-import Openpage from "./components/Openpage";
-import Userlogin from "./components/Userlogin";
-import SignUpsuccess from "./components/SignUpsuccess";
+import Openpage from "./components/Openpage.jsx";
+import Userlogin from "./components/Userlogin.jsx";
+import SignUpsuccess from "./components/SignUpsuccess.jsx";
 
 function App() {
   return (

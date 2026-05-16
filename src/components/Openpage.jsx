@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import './openpage.css';
-import Nav from './Nav';
-import Slide from './sliding';
-import LoginModal from './LoginModal';
-import SignUp from './SignUp';
-import SignUpsuccess from './SignUpsuccess';
+import Nav from './nav.jsx';
+import Slide from './sliding.jsx';
+import LoginModal from './LoginModal.jsx';
+import SignUp from './SignUp.jsx';
+import SignUpsuccess from './SignUpsuccess.jsx';
 import slideimage from '../assets/shopingslide.webp';
 
 function Openpage() {

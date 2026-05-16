@@ -1,9 +1,8 @@
 import { useState } from 'react'
-
 import viteLogo from '/vite.svg'
 import './openpage.css'
-import Nav from './Nav'
-import Slide from './sliding'
+import Nav from './nav.jsx'
+import Slide from './sliding.jsx'
 import slideimage from '../assets/shopingslide.webp'
 import { useNavigate } from 'react-router-dom';
 
